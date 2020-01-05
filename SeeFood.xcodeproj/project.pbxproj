@@ -13,6 +13,7 @@
 		AA30D89B2341AC7300EE5A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA30D8992341AC7300EE5A81 /* Main.storyboard */; };
 		AA30D89D2341AC7400EE5A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA30D89C2341AC7400EE5A81 /* Assets.xcassets */; };
 		AA30D8A02341AC7400EE5A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA30D89E2341AC7400EE5A81 /* LaunchScreen.storyboard */; };
+		AA30D8A82341AC9300EE5A81 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA30D8A72341AC9300EE5A81 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA30D89C2341AC7400EE5A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA30D89F2341AC7400EE5A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA30D8A12341AC7400EE5A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA30D8A72341AC9300EE5A81 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AA30D89C2341AC7400EE5A81 /* Assets.xcassets */,
 				AA30D89E2341AC7400EE5A81 /* LaunchScreen.storyboard */,
 				AA30D8A12341AC7400EE5A81 /* Info.plist */,
+				AA30D8A72341AC9300EE5A81 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA30D8982341AC7300EE5A81 /* ViewController.swift in Sources */,
+				AA30D8A82341AC9300EE5A81 /* Inceptionv3.mlmodel in Sources */,
 				AA30D8942341AC7300EE5A81 /* AppDelegate.swift in Sources */,
 				AA30D8962341AC7300EE5A81 /* SceneDelegate.swift in Sources */,
 			);
